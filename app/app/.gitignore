@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+env/
+venv/
+ENV/
+VENV/
+*.env
+
+# Django-specific
+*.log
+local_settings.py
+db.sqlite3
+media/
+staticfiles/  # If collected static files are stored here
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Migrations (optional: some teams commit migrations)
+*/migrations/__pycache__/
+*/migrations/*.pyc
+# Uncomment next line only if you don't want to track migrations
+# */migrations/*.py
+
+# Coverage and testing
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.junit.xml
+
+# MyPy and other tooling
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# Pylint and flake8
+.pylint.d/
+.flake8
+
+# Docker
+*.pid
+*.sock
